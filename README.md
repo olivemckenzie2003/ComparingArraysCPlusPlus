@@ -35,8 +35,6 @@ void common_elements(int array_1[], int array_2[]){
                 
                 break;
                 
-                cout << array_1[i] << endl;
-                
             }
             
         }
@@ -55,8 +53,6 @@ void common_elements(int array_1[], int array_2[]){
             
             break;: Stops the inner loop to avoid counting the same common element multiple times if it appears more than once in array_2.
             
-            Note: The line cout << array_1[i] << endl; is unreachable here because it’s placed after the break statement. This line will never execute and can be removed.
-
    cout << "There are " << common_count << " common elements";
   
    if(common_count != 0) {
